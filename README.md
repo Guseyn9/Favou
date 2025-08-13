@@ -14,7 +14,7 @@
 
 ### 📌 Мои проекты
  
-  [Демо этого проекта](https://lagoona-one.vercel.app/)
+  [Демо этого проекта](https://favou.vercel.app/)
 - **Food-project** — мини интернет магазин на state manager Redux-Toolkit  
   [Демо](https://my-food-project-ten.vercel.app/) | [Код](https://github.com/Guseyn9/my-food-project)
 - **MiniAppTg** — мини-приложение для телеграмм платформы  
