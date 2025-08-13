@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <title>Home 5 - Favou</title>
+</head>
+    <body>
+      <header class="header">
+        <div class="container header__container">
+          <div class="content">
+            <img class="header__logo" src="img/logo.png" alt="">
+            <div class="header__content">
+              <button class="header__menu-btn">menu</button>
+              <nav class="header__nav">
+                <div class="header__nav-block">
+                  <button class="close-btn">
+                    <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <rect x="10.95" y="9.53577" width="2" height="13" rx="1" transform="rotate(135 10.95 9.53577)" fill="#121212"/>
+                      <rect x="9.99805" y="0.315842" width="2" height="13" rx="1" transform="rotate(45 9.99805 0.315842)" fill="#121212"/>
+                    </svg>                      
+                  </button>
+                </div>
+                <ul class="header__list">
+                  <li class="header__item">
+                    <a href="" class="header__link">
+                      Home
+                    </a>
+                  </li>
+                  <li class="header__item">
+                    <a href="" class="header__link">
+                      Shop
+                    </a>
+                  </li>
+                  <li class="header__item">
+                    <a href="" class="header__link">
+                      Blog
+                    </a>
+                  </li>
+                  <li class="header__item">
+                    <a href="" class="header__link">
+                      Contact
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+              <div class="header__right">
+                <a href="" class="header__icon--link">
+                  <svg class="search-icon link__icon" width="26" height="25" viewBox="0 0 26 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M24.7065 20.6671L19.418 15.59C20.5107 14.009 21.1503 12.116 21.1503 10.081C21.1503 4.56692 16.4773 0.0808716 10.7335 0.0808716C4.98968 0.0808716 0.316711 4.56692 0.316711 10.081C0.316711 15.595 4.98968 20.0811 10.7335 20.0811C12.8533 20.0811 14.8252 19.4671 16.4721 18.4181L21.7607 23.4951C22.5732 24.2761 23.894 24.2761 24.7065 23.4951C25.5201 22.7141 25.5201 21.4481 24.7065 20.6671ZM3.44174 10.081C3.44174 6.22094 6.71261 3.0809 10.7335 3.0809C14.7544 3.0809 18.0252 6.22094 18.0252 10.081C18.0252 13.941 14.7544 17.081 10.7335 17.081C6.71261 17.081 3.44174 13.941 3.44174 10.081Z" fill="#121212"/>
+                  </svg>
+                </a>
+                <a href="" class="header__icon--link">
+                  <svg class="user-icon link__icon" width="34" height="31" viewBox="0 0 34 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M16.5192 17.9054C21.3961 17.9054 25.3517 14.0509 25.3517 9.29872C25.3517 4.54656 21.3961 0.718422 16.5192 0.718422C11.6424 0.718422 7.68672 4.57296 7.68672 9.29872C7.68672 14.0245 11.6424 17.9054 16.5192 17.9054ZM16.5192 2.9625C20.0956 2.9625 23.0217 5.8138 23.0217 9.29872C23.0217 12.7836 20.0956 15.6349 16.5192 15.6349C12.9429 15.6349 10.0168 12.7836 10.0168 9.29872C10.0168 5.8138 12.9429 2.9625 16.5192 2.9625Z" fill="#121212"/>
+                    <path d="M1.18431 30.7184H31.8543C32.5045 30.7184 33.0193 30.2168 33.0193 29.5832C33.0193 23.643 28.0612 18.7852 21.938 18.7852H11.1006C5.00451 18.7852 0.0192871 23.6166 0.0192871 29.5832C0.0192871 30.2168 0.534065 30.7184 1.18431 30.7184ZM11.1006 21.0557H21.938C26.3814 21.0557 30.039 24.2766 30.608 28.4479H2.43062C2.99958 24.303 6.65722 21.0557 11.1006 21.0557Z" fill="#121212"/>
+                  </svg>
+                </a>
+                <a href="" class="header__icon--link">
+                  <svg class="cart-icon link__icon" width="34" height="32" viewBox="0 0 34 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_2224_156)">
+                    <path d="M1.9001 2.64929H7.62012" stroke="#121212" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"/>
+                    <path d="M7.62012 2.64929L12.4601 22.3974" stroke="#121212" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"/>
+                    <path d="M13.3401 22.3974H31.4901" stroke="#121212" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"/>
+                    <path d="M15.5401 30.2048C17.3627 30.2048 18.8401 28.6628 18.8401 26.7604C18.8401 24.8581 17.3627 23.3159 15.5401 23.3159C13.7175 23.3159 12.2401 24.8581 12.2401 26.7604C12.2401 28.6628 13.7175 30.2048 15.5401 30.2048Z" stroke="#121212" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"/>
+                    <path d="M28.1901 30.2048C30.0126 30.2048 31.4901 28.6628 31.4901 26.7604C31.4901 24.8581 30.0126 23.3159 28.1901 23.3159C26.3675 23.3159 24.8901 24.8581 24.8901 26.7604C24.8901 28.6628 26.3675 30.2048 28.1901 30.2048Z" stroke="#121212" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"/>
+                    <path d="M28.6301 17.4604H12.7901C12.1301 17.4604 11.4701 17.0011 11.3601 16.3122L9.27011 8.61966C9.05011 7.58633 9.7101 6.66781 10.7001 6.66781H30.6101C31.6001 6.66781 32.3701 7.70114 32.0401 8.61966L29.9501 16.3122C29.9501 17.0011 29.4001 17.4604 28.6301 17.4604Z" stroke="#121212" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"/>
+                    </g>
+                    <defs>
+                    <clipPath id="clip0_2224_156">
+                    <rect width="33" height="31" fill="white" transform="translate(0.360107 0.697426)"/>
+                    </clipPath>
+                    </defs>
+                  </svg>    
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <section class="home">
+        <div class="container home__container">
+          <div class="swiper home__swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="home_decoration">
+                  <img class="home__decor-1" src="img/image-slider-5.png" alt="">
+                  <img class="home__decor-2 slide__img-1" src="img/image-slider-7.png" alt="">
+                  <img class="home__decor-3" src="img/image-slider-6.png" alt="">
+                </div>
+                <div class="home__content">
+                  <div class="home__subtitle-block">
+                    <h2 class="home__subtitle">DESIGN</h2>
+                    <div class="line home__line-1"></div>
+                  </div>
+                  <h1 class="home__title">CLOCK</h1>
+                  <div class="line home__line-2"></div>
+                  <p class="home__descr">TRENDING STYLE 2018</p>
+                  <button class="home__btn">Shop Now</button>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="home_decoration">
+                  <img class="home__decor-1" src="img/image-slider-5.png" alt="">
+                  <img class="home__decor-2 slide__img-2" src="img/image-slider-8.png" alt="">
+                  <img class="home__decor-3" src="img/image-slider-6.png" alt="">
+                </div>
+                <div class="home__content">
+                  <div class="home__subtitle-block">
+                    <h2 class="home__subtitle">DESIGN</h2>
+                    <div class="line home__line-1"></div>
+                  </div>
+                  <h1 class="home__title">LIGHTS</h1>
+                  <div class="line home__line-2"></div>
+                  <p class="home__descr">TRENDING STYLE 2018</p>
+                  <button class="home__btn">Shop Now</button>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="home_decoration">
+                  <img class="home__decor-1" src="img/image-slider-5.png" alt="">
+                  <img class="home__decor-2 slide__img-3" src="img/image-slider-4.png" alt="">
+                  <img class="home__decor-3" src="img/image-slider-6.png" alt="">
+                </div>
+                <div class="home__content">
+                  <div class="home__subtitle-block">
+                    <h2 class="home__subtitle">DESIGN</h2>
+                    <div class="line home__line-1"></div>
+                  </div>
+                  <h1 class="home__title">TABLE</h1>
+                  <div class="line home__line-2"></div>
+                  <p class="home__descr">TRENDING STYLE 2018</p>
+                  <button class="home__btn">Shop Now</button>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+      <section class="stocks">
+        <div class="container stocks__container">
+          <div class="row stocks__row">
+            <div class="col-md-6 stocks__block">
+              <a href="" class="stocks__link">
+                <img class="stocks__img banners-img" src="img/banner-13.jpg" alt="">
+              </a>
+            </div>
+            <div class="col-md-6">
+              <a href="" class="stocks__link">
+              <img class="stocks__img banners-img" src="img/banner-14.jpg" alt="">
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="seller">
+        <div class="container seller__container">
+          <div class="seller__content">
+            <h2 class="seller__title section__title">best seller</h2>
+            <ul class="seller__categories-list">
+              <li class="seller__categories-item seller__categories-item--active">All Category</li>
+              <li class="seller__categories-item">Bath Room</li>
+              <li class="seller__categories-item">Bedroom</li>
+              <li class="seller__categories-item">Diningroom</li>
+              <li class="seller__categories-item">Lights</li>
+            </ul>
+          </div>
+          <div class="seller__slider-content">
+            <div class="swiper seller__swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="seller__product">
+                    <div class="seller__product-img-block">
+                      <img class="seller__product-img" src="img/seller-img1.jpg" alt="">
+                      <img class="seller__product-img2" src="img/seller-img_1.jpg" alt="">
+                      <div class="seller__product-block">
+                        <button class="seller__product-block__btn">
+                          <svg class="search-icon link__icon" width="20" height="20" viewBox="0 0 26 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M24.7065 20.6671L19.418 15.59C20.5107 14.009 21.1503 12.116 21.1503 10.081C21.1503 4.56692 16.4773 0.0808716 10.7335 0.0808716C4.98968 0.0808716 0.316711 4.56692 0.316711 10.081C0.316711 15.595 4.98968 20.0811 10.7335 20.0811C12.8533 20.0811 14.8252 19.4671 16.4721 18.4181L21.7607 23.4951C22.5732 24.2761 23.894 24.2761 24.7065 23.4951C25.5201 22.7141 25.5201 21.4481 24.7065 20.6671ZM3.44174 10.081C3.44174 6.22094 6.71261 3.0809 10.7335 3.0809C14.7544 3.0809 18.0252 6.22094 18.0252 10.081C18.0252 13.941 14.7544 17.081 10.7335 17.081C6.71261 17.081 3.44174 13.941 3.44174 10.081Z" fill="#fff"/>
+                          </svg>
+                        </button>
+                        <button class="seller__product-block__btn">
+                          <svg class="cart-icon link__icon" width="34" height="25" viewBox="0 0 34 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_2224_156)">
+                            <path d="M1.9001 2.64929H7.62012" stroke="#fff" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"/>
+                            <path d="M7.62012 2.64929L12.4601 22.3974" stroke="#fff" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"/>
+                            <path d="M13.3401 22.3974H31.4901" stroke="#fff" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"/>
+                            <path d="M15.5401 30.2048C17.3627 30.2048 18.8401 28.6628 18.8401 26.7604C18.8401 24.8581 17.3627 23.3159 15.5401 23.3159C13.7175 23.3159 12.2401 24.8581 12.2401 26.7604C12.2401 28.6628 13.7175 30.2048 15.5401 30.2048Z" stroke="#fff" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"/>
+                            <path d="M28.1901 30.2048C30.0126 30.2048 31.4901 28.6628 31.4901 26.7604C31.4901 24.8581 30.0126 23.3159 28.1901 23.3159C26.3675 23.3159 24.8901 24.8581 24.8901 26.7604C24.8901 28.6628 26.3675 30.2048 28.1901 30.2048Z" stroke="#fff" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"/>
+                            <path d="M28.6301 17.4604H12.7901C12.1301 17.4604 11.4701 17.0011 11.3601 16.3122L9.27011 8.61966C9.05011 7.58633 9.7101 6.66781 10.7001 6.66781H30.6101C31.6001 6.66781 32.3701 7.70114 32.0401 8.61966L29.9501 16.3122C29.9501 17.0011 29.4001 17.4604 28.6301 17.4604Z" stroke="#fff" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"/>
+                            </g>
+                            <defs>
+                            <clipPath id="clip0_2224_156">
+                            <rect width="33" height="31" fill="white" transform="translate(0.360107 0.697426)"/>
+                            </clipPath>
+                            </defs>
+                          </svg>
+                        </button>
+                        <button class="seller__product-block__btn">
+                          <svg aria-label="лайков" width="19" height="19" viewBox="0 0 13 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M9.425 0C8.294 0 7.2085 0.5297 6.5 1.36676C5.7915 0.5297 4.706 0 3.575 0C1.573 0 0 1.58256 0 3.59673C0 6.06866 2.21 8.08283 5.5575 11.1433L6.5 12L7.4425 11.1368C10.79 8.08283 13 6.06866 13 3.59673C13 1.58256 11.427 0 9.425 0ZM6.565 10.1689L6.5 10.2343L6.435 10.1689C3.341 7.35041 1.3 5.48665 1.3 3.59673C1.3 2.28883 2.275 1.3079 3.575 1.3079C4.576 1.3079 5.551 1.95531 5.8955 2.85123H7.111C7.449 1.95531 8.424 1.3079 9.425 1.3079C10.725 1.3079 11.7 2.28883 11.7 3.59673C11.7 5.48665 9.659 7.35041 6.565 10.1689Z" fill="#fff"></path>
+                          </svg>
+                        </button>
+                      </div>
+                    </div>
+                    <h3 class="seller__product-title">Bouquet Flower Vase</h3>
+                    <span class="seller__product-price">$214.22</span>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="seller__product">
+                    <div class="seller__sale-block">
+                      <span class="seller__block-text">Sale</span>
+                    </div>
+                    <div class="seller__product-img-block">
+                      <img class="seller__product-img" src="img/seller-img2.jpg" alt="">
+                      <img class="seller__product-img2" src="img/seller-img_2.jpg" alt="">
+                      <div class="seller__product-block">
+                        <button class="seller__product-block__btn">
+                          <svg class="search-icon link__icon" width="20" height="20" viewBox="0 0 26 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M24.7065 20.6671L19.418 15.59C20.5107 14.009 21.1503 12.116 21.1503 10.081C21.1503 4.56692 16.4773 0.0808716 10.7335 0.0808716C4.98968 0.0808716 0.316711 4.56692 0.316711 10.081C0.316711 15.595 4.98968 20.0811 10.7335 20.0811C12.8533 20.0811 14.8252 19.4671 16.4721 18.4181L21.7607 23.4951C22.5732 24.2761 23.894 24.2761 24.7065 23.4951C25.5201 22.7141 25.5201 21.4481 24.7065 20.6671ZM3.44174 10.081C3.44174 6.22094 6.71261 3.0809 10.7335 3.0809C14.7544 3.0809 18.0252 6.22094 18.0252 10.081C18.0252 13.941 14.7544 17.081 10.7335 17.081C6.71261 17.081 3.44174 13.941 3.44174 10.081Z" fill="#fff"/>
+                          </svg>
+                        </button>
+                        <button class="seller__product-block__btn">
+                          <svg class="cart-icon link__icon" width="34" height="25" viewBox="0 0 34 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_2224_156)">
+                            <path d="M1.9001 2.64929H7.62012" stroke="#fff" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"/>
+                            <path d="M7.62012 2.64929L12.4601 22.3974" stroke="#fff" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"/>
+                            <path d="M13.3401 22.3974H31.4901" stroke="#fff" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"/>
+                            <path d="M15.5401 30.2048C17.3627 30.2048 18.8401 28.6628 18.8401 26.7604C18.8401 24.8581 17.3627 23.3159 15.5401 23.3159C13.7175 23.3159 12.2401 24.8581 12.2401 26.7604C12.2401 28.6628 13.7175 30.2048 15.5401 30.2048Z" stroke="#fff" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"/>
+                            <path d="M28.1901 30.2048C30.0126 30.2048 31.4901 28.6628 31.4901 26.7604C31.4901 24.8581 30.0126 23.3159 28.1901 23.3159C26.3675 23.3159 24.8901 24.8581 24.8901 26.7604C24.8901 28.6628 26.3675 30.2048 28.1901 30.2048Z" stroke="#fff" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"/>
+                            <path d="M28.6301 17.4604H12.7901C12.1301 17.4604 11.4701 17.0011 11.3601 16.3122L9.27011 8.61966C9.05011 7.58633 9.7101 6.66781 10.7001 6.66781H30.6101C31.6001 6.66781 32.3701 7.70114 32.0401 8.61966L29.9501 16.3122C29.9501 17.0011 29.4001 17.4604 28.6301 17.4604Z" stroke="#fff" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"/>
+                            </g>
+                            <defs>
+                            <clipPath id="clip0_2224_156">
+                            <rect width="33" height="31" fill="white" transform="translate(0.360107 0.697426)"/>
+                            </clipPath>
+                            </defs>
+                          </svg>
+                        </button>
+                        <button class="seller__product-block__btn">
+                          <svg aria-label="лайков" width="19" height="19" viewBox="0 0 13 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M9.425 0C8.294 0 7.2085 0.5297 6.5 1.36676C5.7915 0.5297 4.706 0 3.575 0C1.573 0 0 1.58256 0 3.59673C0 6.06866 2.21 8.08283 5.5575 11.1433L6.5 12L7.4425 11.1368C10.79 8.08283 13 6.06866 13 3.59673C13 1.58256 11.427 0 9.425 0ZM6.565 10.1689L6.5 10.2343L6.435 10.1689C3.341 7.35041 1.3 5.48665 1.3 3.59673C1.3 2.28883 2.275 1.3079 3.575 1.3079C4.576 1.3079 5.551 1.95531 5.8955 2.85123H7.111C7.449 1.95531 8.424 1.3079 9.425 1.3079C10.725 1.3079 11.7 2.28883 11.7 3.59673C11.7 5.48665 9.659 7.35041 6.565 10.1689Z" fill="#fff"></path>
+                          </svg>
+                        </button>
+                      </div>
+                    </div>
+                    <h3 class="seller__product-title">Handmade Pillow</h3>
+                    <span class="seller__product-price">$210.00</span>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="seller__product">
+                    <div class="seller__product-img-block">
+                      <img class="seller__product-img" src="img/seller-img3.jpg" alt="">
+                    <img class="seller__product-img2" src="img/seller-img_3.jpg" alt="">
+                      <div class="seller__product-block">
+                        <button class="seller__product-block__btn">
+                          <svg class="search-icon link__icon" width="20" height="20" viewBox="0 0 26 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M24.7065 20.6671L19.418 15.59C20.5107 14.009 21.1503 12.116 21.1503 10.081C21.1503 4.56692 16.4773 0.0808716 10.7335 0.0808716C4.98968 0.0808716 0.316711 4.56692 0.316711 10.081C0.316711 15.595 4.98968 20.0811 10.7335 20.0811C12.8533 20.0811 14.8252 19.4671 16.4721 18.4181L21.7607 23.4951C22.5732 24.2761 23.894 24.2761 24.7065 23.4951C25.5201 22.7141 25.5201 21.4481 24.7065 20.6671ZM3.44174 10.081C3.44174 6.22094 6.71261 3.0809 10.7335 3.0809C14.7544 3.0809 18.0252 6.22094 18.0252 10.081C18.0252 13.941 14.7544 17.081 10.7335 17.081C6.71261 17.081 3.44174 13.941 3.44174 10.081Z" fill="#fff"/>
+                          </svg>
+                        </button>
+                        <button class="seller__product-block__btn">
+                          <svg class="cart-icon link__icon" width="34" height="25" viewBox="0 0 34 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_2224_156)">
+                            <path d="M1.9001 2.64929H7.62012" stroke="#fff" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"/>
+                            <path d="M7.62012 2.64929L12.4601 22.3974" stroke="#fff" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"/>
+                            <path d="M13.3401 22.3974H31.4901" stroke="#fff" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"/>
+                            <path d="M15.5401 30.2048C17.3627 30.2048 18.8401 28.6628 18.8401 26.7604C18.8401 24.8581 17.3627 23.3159 15.5401 23.3159C13.7175 23.3159 12.2401 24.8581 12.2401 26.7604C12.2401 28.6628 13.7175 30.2048 15.5401 30.2048Z" stroke="#fff" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"/>
+                            <path d="M28.1901 30.2048C30.0126 30.2048 31.4901 28.6628 31.4901 26.7604C31.4901 24.8581 30.0126 23.3159 28.1901 23.3159C26.3675 23.3159 24.8901 24.8581 24.8901 26.7604C24.8901 28.6628 26.3675 30.2048 28.1901 30.2048Z" stroke="#fff" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"/>
+                            <path d="M28.6301 17.4604H12.7901C12.1301 17.4604 11.4701 17.0011 11.3601 16.3122L9.27011 8.61966C9.05011 7.58633 9.7101 6.66781 10.7001 6.66781H30.6101C31.6001 6.66781 32.3701 7.70114 32.0401 8.61966L29.9501 16.3122C29.9501 17.0011 29.4001 17.4604 28.6301 17.4604Z" stroke="#fff" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"/>
+                            </g>
+                            <defs>
+                            <clipPath id="clip0_2224_156">
+                            <rect width="33" height="31" fill="white" transform="translate(0.360107 0.697426)"/>
+                            </clipPath>
+                            </defs>
+                          </svg>
+                        </button>
+                        <button class="seller__product-block__btn">
+                          <svg aria-label="лайков" width="19" height="19" viewBox="0 0 13 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M9.425 0C8.294 0 7.2085 0.5297 6.5 1.36676C5.7915 0.5297 4.706 0 3.575 0C1.573 0 0 1.58256 0 3.59673C0 6.06866 2.21 8.08283 5.5575 11.1433L6.5 12L7.4425 11.1368C10.79 8.08283 13 6.06866 13 3.59673C13 1.58256 11.427 0 9.425 0ZM6.565 10.1689L6.5 10.2343L6.435 10.1689C3.341 7.35041 1.3 5.48665 1.3 3.59673C1.3 2.28883 2.275 1.3079 3.575 1.3079C4.576 1.3079 5.551 1.95531 5.8955 2.85123H7.111C7.449 1.95531 8.424 1.3079 9.425 1.3079C10.725 1.3079 11.7 2.28883 11.7 3.59673C11.7 5.48665 9.659 7.35041 6.565 10.1689Z" fill="#fff"></path>
+                          </svg>
+                        </button>
+                      </div>
+                    </div>
+                    <h3 class="seller__product-title">Lampshade Hanging</h3>
+                    <span class="seller__product-price">$815.00</span>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="seller__product">
+                    <div class="seller__hot-block">
+                      <span class="seller__block-text">Hot</span>
+                    </div>
+                    <div class="seller__product">
+                      <div class="seller__product-img-block">
+                        <img class="seller__product-img" src="img/seller-img4.jpg" alt="">
+                        <img class="seller__product-img2" src="img/seller-img_4.jpg" alt="">
+                        <div class="seller__product-block">
+                          <button class="seller__product-block__btn">
+                            <svg class="search-icon link__icon" width="20" height="20" viewBox="0 0 26 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M24.7065 20.6671L19.418 15.59C20.5107 14.009 21.1503 12.116 21.1503 10.081C21.1503 4.56692 16.4773 0.0808716 10.7335 0.0808716C4.98968 0.0808716 0.316711 4.56692 0.316711 10.081C0.316711 15.595 4.98968 20.0811 10.7335 20.0811C12.8533 20.0811 14.8252 19.4671 16.4721 18.4181L21.7607 23.4951C22.5732 24.2761 23.894 24.2761 24.7065 23.4951C25.5201 22.7141 25.5201 21.4481 24.7065 20.6671ZM3.44174 10.081C3.44174 6.22094 6.71261 3.0809 10.7335 3.0809C14.7544 3.0809 18.0252 6.22094 18.0252 10.081C18.0252 13.941 14.7544 17.081 10.7335 17.081C6.71261 17.081 3.44174 13.941 3.44174 10.081Z" fill="#fff"/>
+                            </svg>
+                          </button>
+                          <button class="seller__product-block__btn">
+                            <svg class="cart-icon link__icon" width="34" height="25" viewBox="0 0 34 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <g clip-path="url(#clip0_2224_156)">
+                              <path d="M1.9001 2.64929H7.62012" stroke="#fff" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"/>
+                              <path d="M7.62012 2.64929L12.4601 22.3974" stroke="#fff" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"/>
+                              <path d="M13.3401 22.3974H31.4901" stroke="#fff" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"/>
+                              <path d="M15.5401 30.2048C17.3627 30.2048 18.8401 28.6628 18.8401 26.7604C18.8401 24.8581 17.3627 23.3159 15.5401 23.3159C13.7175 23.3159 12.2401 24.8581 12.2401 26.7604C12.2401 28.6628 13.7175 30.2048 15.5401 30.2048Z" stroke="#fff" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"/>
+                              <path d="M28.1901 30.2048C30.0126 30.2048 31.4901 28.6628 31.4901 26.7604C31.4901 24.8581 30.0126 23.3159 28.1901 23.3159C26.3675 23.3159 24.8901 24.8581 24.8901 26.7604C24.8901 28.6628 26.3675 30.2048 28.1901 30.2048Z" stroke="#fff" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"/>
+                              <path d="M28.6301 17.4604H12.7901C12.1301 17.4604 11.4701 17.0011 11.3601 16.3122L9.27011 8.61966C9.05011 7.58633 9.7101 6.66781 10.7001 6.66781H30.6101C31.6001 6.66781 32.3701 7.70114 32.0401 8.61966L29.9501 16.3122C29.9501 17.0011 29.4001 17.4604 28.6301 17.4604Z" stroke="#fff" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"/>
+                              </g>
+                              <defs>
+                              <clipPath id="clip0_2224_156">
+                              <rect width="33" height="31" fill="white" transform="translate(0.360107 0.697426)"/>
+                              </clipPath>
+                              </defs>
+                            </svg>
+                          </button>
+                          <button class="seller__product-block__btn">
+                            <svg aria-label="лайков" width="19" height="19" viewBox="0 0 13 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M9.425 0C8.294 0 7.2085 0.5297 6.5 1.36676C5.7915 0.5297 4.706 0 3.575 0C1.573 0 0 1.58256 0 3.59673C0 6.06866 2.21 8.08283 5.5575 11.1433L6.5 12L7.4425 11.1368C10.79 8.08283 13 6.06866 13 3.59673C13 1.58256 11.427 0 9.425 0ZM6.565 10.1689L6.5 10.2343L6.435 10.1689C3.341 7.35041 1.3 5.48665 1.3 3.59673C1.3 2.28883 2.275 1.3079 3.575 1.3079C4.576 1.3079 5.551 1.95531 5.8955 2.85123H7.111C7.449 1.95531 8.424 1.3079 9.425 1.3079C10.725 1.3079 11.7 2.28883 11.7 3.59673C11.7 5.48665 9.659 7.35041 6.565 10.1689Z" fill="#fff"></path>
+                            </svg>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                    <h3 class="seller__product-title">Ford Boutique Cups</h3>
+                    <span class="seller__product-price">$205.00</span>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="seller__product">
+                    <div class="seller__product">
+                      <div class="seller__product-img-block">
+                        <img class="seller__product-img" src="img/seller-img5.jpg" alt="">
+                        <img class="seller__product-img2" src="img/seller-img_3.jpg" alt="">
+                        <div class="seller__product-block">
+                          <button class="seller__product-block__btn">
+                            <svg class="search-icon link__icon" width="20" height="20" viewBox="0 0 26 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M24.7065 20.6671L19.418 15.59C20.5107 14.009 21.1503 12.116 21.1503 10.081C21.1503 4.56692 16.4773 0.0808716 10.7335 0.0808716C4.98968 0.0808716 0.316711 4.56692 0.316711 10.081C0.316711 15.595 4.98968 20.0811 10.7335 20.0811C12.8533 20.0811 14.8252 19.4671 16.4721 18.4181L21.7607 23.4951C22.5732 24.2761 23.894 24.2761 24.7065 23.4951C25.5201 22.7141 25.5201 21.4481 24.7065 20.6671ZM3.44174 10.081C3.44174 6.22094 6.71261 3.0809 10.7335 3.0809C14.7544 3.0809 18.0252 6.22094 18.0252 10.081C18.0252 13.941 14.7544 17.081 10.7335 17.081C6.71261 17.081 3.44174 13.941 3.44174 10.081Z" fill="#fff"/>
+                            </svg>
+                          </button>
+                          <button class="seller__product-block__btn">
+                            <svg class="cart-icon link__icon" width="34" height="25" viewBox="0 0 34 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <g clip-path="url(#clip0_2224_156)">
+                              <path d="M1.9001 2.64929H7.62012" stroke="#fff" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"/>
+                              <path d="M7.62012 2.64929L12.4601 22.3974" stroke="#fff" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"/>
+                              <path d="M13.3401 22.3974H31.4901" stroke="#fff" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"/>
+                              <path d="M15.5401 30.2048C17.3627 30.2048 18.8401 28.6628 18.8401 26.7604C18.8401 24.8581 17.3627 23.3159 15.5401 23.3159C13.7175 23.3159 12.2401 24.8581 12.2401 26.7604C12.2401 28.6628 13.7175 30.2048 15.5401 30.2048Z" stroke="#fff" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"/>
+                              <path d="M28.1901 30.2048C30.0126 30.2048 31.4901 28.6628 31.4901 26.7604C31.4901 24.8581 30.0126 23.3159 28.1901 23.3159C26.3675 23.3159 24.8901 24.8581 24.8901 26.7604C24.8901 28.6628 26.3675 30.2048 28.1901 30.2048Z" stroke="#fff" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"/>
+                              <path d="M28.6301 17.4604H12.7901C12.1301 17.4604 11.4701 17.0011 11.3601 16.3122L9.27011 8.61966C9.05011 7.58633 9.7101 6.66781 10.7001 6.66781H30.6101C31.6001 6.66781 32.3701 7.70114 32.0401 8.61966L29.9501 16.3122C29.9501 17.0011 29.4001 17.4604 28.6301 17.4604Z" stroke="#fff" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"/>
+                              </g>
+                              <defs>
+                              <clipPath id="clip0_2224_156">
+                              <rect width="33" height="31" fill="white" transform="translate(0.360107 0.697426)"/>
+                              </clipPath>
+                              </defs>
+                            </svg>
+                          </button>
+                          <button class="seller__product-block__btn">
+                            <svg aria-label="лайков" width="19" height="19" viewBox="0 0 13 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M9.425 0C8.294 0 7.2085 0.5297 6.5 1.36676C5.7915 0.5297 4.706 0 3.575 0C1.573 0 0 1.58256 0 3.59673C0 6.06866 2.21 8.08283 5.5575 11.1433L6.5 12L7.4425 11.1368C10.79 8.08283 13 6.06866 13 3.59673C13 1.58256 11.427 0 9.425 0ZM6.565 10.1689L6.5 10.2343L6.435 10.1689C3.341 7.35041 1.3 5.48665 1.3 3.59673C1.3 2.28883 2.275 1.3079 3.575 1.3079C4.576 1.3079 5.551 1.95531 5.8955 2.85123H7.111C7.449 1.95531 8.424 1.3079 9.425 1.3079C10.725 1.3079 11.7 2.28883 11.7 3.59673C11.7 5.48665 9.659 7.35041 6.565 10.1689Z" fill="#fff"></path>
+                            </svg>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                    <h3 class="seller__product-title">Elegant Black Watches</h3>
+                    <span class="seller__product-price">$30.51</span>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-button-next seller__arrow"></div>
+              <div class="swiper-button-prev seller__arrow"></div>
+            </div>
+          </div>
+          <div class="seller__banners-block">
+            <div class="row banners-row">
+              <div class="col-md-4 banner-col">
+                <a href="" class="stocks__link">
+                  <img class="banners-img" src="img/banner-1.jpg" alt="">
+                </a>
+              </div>
+              <div class="col-md-4 banner-col">
+                <a href="" class="stocks__link">
+                  <img class="banners-img" src="img/banner-2.jpg" alt="">
+                </a>
+              </div>
+              <div class="col-md-4 banner-col">
+                <a href="" class="stocks__link">
+                  <img class="banners-img" src="img/banner-3.jpg" alt="">
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="separator-block"></div>
+      <section class="blog">
+        <div class="container blog__container">
+          <h2 class="section__title blog__title">From our blog</h2>
+          <div class="swiper blog__swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="blog__card">
+                  <a href="" class="stocks__link">
+                    <img class="blog__card-img banners-img" src="img/Blog-1.jpg" alt="">
+                  </a>
+                  <div class="blog__card-content">
+                    <h3 class="blog__card-title">
+                      <a href="" class="blog__card-title__link">
+                      Designers use Line Drawings
+                      </a>
+                    </h3>
+                  <div class="blog__card-block">
+                    <div class="blog__card-block__content">
+                      <img src="img/userIcon.svg" alt="" class="blog__card-block__img">
+                      <a href="" class="blog__card-block__link">Admin</a>
+                    </div>
+                    <div class="blog__card-block__content">
+                      <img src="img/catalogIcon.svg" alt="" class="blog__card-block__img">
+                      <span href="" class="blog__card-block__text">30 / 5 / 2018</span>
+                    </div>
+                    <div class="blog__card-block__content">
+                      <img src="img/searchIcon.svg" alt="" class="blog__card-block__img">
+                      <span href="" class="blog__card-block__text">1 Comment</span>
+                    </div>
+                  </div>
+                  <p class="blog__card-descr">
+                    Nunc aliquet, justo non commodo congue, velit sem pulvinar enim, ac bibendum mi mi eget libero. Maecenas ac viverra enim, et laoreet lacus. Etiam...
+                  </p>
+                  <a href="" class="blog__card-link">Read More</a>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="blog__card">
+                  <a href="" class="stocks__link">
+                    <img class="blog__card-img banners-img" src="img/Blog-2.jpg" alt="">
+                  </a>
+                  <div class="blog__card-content">
+                    <h3 class="blog__card-title">
+                      <a href="" class="blog__card-title__link">
+                      Attached To The Design
+                      </a>
+                    </h3>
+                  <div class="blog__card-block">
+                    <div class="blog__card-block__content">
+                      <img src="img/userIcon.svg" alt="" class="blog__card-block__img">
+                      <a href="" class="blog__card-block__link">Admin</a>
+                    </div>
+                    <div class="blog__card-block__content">
+                      <img src="img/catalogIcon.svg" alt="" class="blog__card-block__img">
+                      <span href="" class="blog__card-block__text">30 / 5 / 2018</span>
+                    </div>
+                    <div class="blog__card-block__content">
+                      <img src="img/searchIcon.svg" alt="" class="blog__card-block__img">
+                      <span href="" class="blog__card-block__text">1 Comment</span>
+                    </div>
+                  </div>
+                  <p class="blog__card-descr">
+                    Nunc aliquet, justo non commodo congue, velit sem pulvinar enim, ac bibendum mi mi eget libero. Maecenas ac viverra enim, et laoreet lacus. Etiam...
+                  </p>
+                  <a href="" class="blog__card-link">Read More</a>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="blog__card">
+                  <a href="" class="stocks__link">
+                    <img class="blog__card-img banners-img" src="img/Blog-3.jpg" alt="">
+                  </a>
+                  <div class="blog__card-content">
+                    <h3 class="blog__card-title">
+                      <a href="" class="blog__card-title__link">
+                      Modern Furniture Design
+                      </a>
+                    </h3>
+                  <div class="blog__card-block">
+                    <div class="blog__card-block__content">
+                      <img src="img/userIcon.svg" alt="" class="blog__card-block__img">
+                      <a href="" class="blog__card-block__link">Admin</a>
+                    </div>
+                    <div class="blog__card-block__content">
+                      <img src="img/catalogIcon.svg" alt="" class="blog__card-block__img">
+                      <span href="" class="blog__card-block__text">30 / 5 / 2018</span>
+                    </div>
+                    <div class="blog__card-block__content">
+                      <img src="img/searchIcon.svg" alt="" class="blog__card-block__img">
+                      <span href="" class="blog__card-block__text">1 Comment</span>
+                    </div>
+                  </div>
+                  <p class="blog__card-descr">
+                    Nunc aliquet, justo non commodo congue, velit sem pulvinar enim, ac bibendum mi mi eget libero. Maecenas ac viverra enim, et laoreet lacus. Etiam...
+                  </p>
+                  <a href="" class="blog__card-link">Read More</a>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="blog__card">
+                  <a href="" class="stocks__link">
+                    <img class="blog__card-img banners-img" src="img/Blog-4.jpg" alt="">
+                  </a>
+                  <div class="blog__card-content">
+                    <h3 class="blog__card-title">
+                      <a href="" class="blog__card-title__link">
+                      Lorem ipsum dolor sit amet
+                      </a>
+                    </h3>
+                  <div class="blog__card-block">
+                    <div class="blog__card-block__content">
+                      <img src="img/userIcon.svg" alt="" class="blog__card-block__img">
+                      <a href="" class="blog__card-block__link">Admin</a>
+                    </div>
+                    <div class="blog__card-block__content">
+                      <img src="img/catalogIcon.svg" alt="" class="blog__card-block__img">
+                      <span href="" class="blog__card-block__text">30 / 5 / 2018</span>
+                    </div>
+                    <div class="blog__card-block__content">
+                      <img src="img/searchIcon.svg" alt="" class="blog__card-block__img">
+                      <span href="" class="blog__card-block__text">1 Comment</span>
+                    </div>
+                  </div>
+                  <p class="blog__card-descr">
+                    Nunc aliquet, justo non commodo congue, velit sem pulvinar enim, ac bibendum mi mi eget libero. Maecenas ac viverra enim, et laoreet lacus. Etiam...
+                  </p>
+                  <a href="" class="blog__card-link">Read More</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="advantages">
+        <div class="container advantages__container">
+          <div class="row advantages__row">
+            <div class="col-md-4">
+              <div class="advantages__block">
+                <img src="img/policy1.png" alt="" class="advantages__block-img">
+                <div class="advantages__block-content">
+                  <h3 class="advantages__block-title">
+                    <a href="" class="advantages__block-link">
+                    free shipping
+                    </a>
+                  </h3>
+                  <p class="advantages__block-descr">Free shipping you buy items over $100</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="advantages__block">
+                <img src="img/policy2.png" alt="" class="advantages__block-img">
+                <div class="advantages__block-content">
+                  <h3 class="advantages__block-title">
+                    <a href="" class="advantages__block-link">
+                    30 DAYS RETURN
+                    </a>
+                  </h3>
+                  <p class="advantages__block-descr">Simply return 30 days for an exchange.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="advantages__block">
+              <img src="img/policy3.png" alt="" class="advantages__block-img">
+                <div class="advantages__block-content">
+                  <h3 class="advantages__block-title">
+                  <a href="" class="advantages__block-link">online support24/7</a>
+                  </h3>
+                  <p class="advantages__block-descr">Support online 24 hours a day</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="brands">
+        <div class="container brands__container">
+          <div class="swiper brands__swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="img/brand1.png" alt="">
+              </div>
+              <div class="swiper-slide">
+                <img src="img/brand2.png" alt="">
+              </div>
+              <div class="swiper-slide">
+                <img src="img/brand3.png" alt="">
+              </div>
+              <div class="swiper-slide">
+                <img src="img/brand4.png" alt="">
+              </div>
+              <div class="swiper-slide">
+                <img src="img/brand5.png" alt="">
+              </div>
+              <div class="swiper-slide">
+                <img src="img/brand6.png" alt="">
+              </div>
+              <div class="swiper-slide">
+                <img src="img/brand7.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer class="footer">
+        <div class="container footer__container">
+          <div class="footer__top">
+            <div class="footer__content">
+              <div class="footer__block-1 footer__block">
+                <img src="img/logo.png" alt="" class="footer__logo">
+                <p class="footer__block-1__text">             
+                  Vestibulum suscipit lacinia sed pellentesque. Phasellus quam dolor, egestas sed porta vitae.
+                </p>
+                <div class="footer__input-block">
+                  <form action="post">
+                    <input type="text" class="footer__input" placeholder="Email..." required>
+                    <input type="submit" class="footer__submit" value="Subscribe">
+                  </form>
+                </div>
+              </div>
+              <div class="footer__block-2 footer__block">
+                <h3 class="footer__block__title">Location</h3>
+                <div class="footer__block-2__content">
+                  <div class="footer__block-2__content-block">
+                    <img class="footer__block-2__content-img" src="img/letterIcon.svg" alt="">
+                    <span class="footer__block-2__content-text">184 Main Rd E, St Albans VIC 3021, USA</span>
+                  </div>
+                  <div class="footer__block-2__content-block">
+                    <img class="footer__block-2__content-img" src="img/letterIcon.svg" alt="">
+                    <span class="footer__block-2__content-text">support@domain.com</span>
+                  </div>
+                  <div class="footer__block-2__content-block">
+                    <img class="footer__block-2__content-img" src="img/letterIcon.svg" alt="">
+                    <span class="footer__block-2__content-text">(+84) 0123456789</span>
+                  </div>
+                  <div class="footer__block-2__content-block">
+                    <img class="footer__block-2__content-img" src="img/letterIcon.svg" alt="">
+                    <span class="footer__block-2__content-text">(+84) 0123456789</span>
+                  </div>
+                </div>
+              </div>
+              <div class="footer__block-3 footer__block">
+                <h3 class="footer__block__title">Infomation</h3>
+                <ul class="footer__nav-list">
+                  <li class="footer__nav-item"><a href="" class="footer__nav-link">My Account</a></li>
+                  <li class="footer__nav-item"><a href="" class="footer__nav-link">About Us</a></li>
+                  <li class="footer__nav-item"><a href="" class="footer__nav-link">Contact Us</a></li>
+                  <li class="footer__nav-item"><a href="" class="footer__nav-link">Checkout</a></li>
+                  <li class="footer__nav-item"><a href="" class="footer__nav-link">Wishlist</a></li>
+                </ul>
+              </div>
+              <div class="footer__block-4 footer__block">
+                <h3 class="footer__block__title">Instagram</h3>
+              </div>
+            </div>
+          </div>
+          <div class="footer__bottom">
+            <div class="footer__social-block">
+              <a href="" class="social__link">
+                <svg width="13" height="23" viewBox="0 0 13 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M10.6266 3.81896H13V0.161958C12.5905 0.112125 11.1823 0 9.54229 0C6.12032 0 3.77619 1.90421 3.77619 5.40404V8.625H0V12.7132H3.77619V23H8.40597V12.7142H12.0294L12.6046 8.62596H8.40488V5.80942C8.40597 4.62779 8.7656 3.81896 10.6266 3.81896Z" fill="#909090"/>
+                </svg>
+              </a>
+              <a href="" class="social__link">
+                <svg width="13" height="23" viewBox="0 0 13 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M10.6266 3.81896H13V0.161958C12.5905 0.112125 11.1823 0 9.54229 0C6.12032 0 3.77619 1.90421 3.77619 5.40404V8.625H0V12.7132H3.77619V23H8.40597V12.7142H12.0294L12.6046 8.62596H8.40488V5.80942C8.40597 4.62779 8.7656 3.81896 10.6266 3.81896Z" fill="#909090"/>
+                </svg>
+              </a>
+              <a href="" class="social__link">
+                <svg width="13" height="23" viewBox="0 0 13 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M10.6266 3.81896H13V0.161958C12.5905 0.112125 11.1823 0 9.54229 0C6.12032 0 3.77619 1.90421 3.77619 5.40404V8.625H0V12.7132H3.77619V23H8.40597V12.7142H12.0294L12.6046 8.62596H8.40488V5.80942C8.40597 4.62779 8.7656 3.81896 10.6266 3.81896Z" fill="#909090"/>
+                </svg>
+              </a>
+              <a href="" class="social__link">
+                <svg width="13" height="23" viewBox="0 0 13 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M10.6266 3.81896H13V0.161958C12.5905 0.112125 11.1823 0 9.54229 0C6.12032 0 3.77619 1.90421 3.77619 5.40404V8.625H0V12.7132H3.77619V23H8.40597V12.7142H12.0294L12.6046 8.62596H8.40488V5.80942C8.40597 4.62779 8.7656 3.81896 10.6266 3.81896Z" fill="#909090"/>
+                </svg>
+              </a>
+              <a href="" class="social__link">
+                <svg width="13" height="23" viewBox="0 0 13 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M10.6266 3.81896H13V0.161958C12.5905 0.112125 11.1823 0 9.54229 0C6.12032 0 3.77619 1.90421 3.77619 5.40404V8.625H0V12.7132H3.77619V23H8.40597V12.7142H12.0294L12.6046 8.62596H8.40488V5.80942C8.40597 4.62779 8.7656 3.81896 10.6266 3.81896Z" fill="#909090"/>
+                </svg>
+              </a>
+            </div>
+            <div class="footer__pay-block">
+              <a href="">
+              <img src="img/payment.png" alt="">
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="footer__copyright-block">
+          <p class="footer__copyright-block__text">
+            Copyright © 2018 <a href="">Wpbingo.</a>All rights reserved.
+          </p>
+        </div>
+      </footer>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+      <script src="js/script.js"></script>  
+    </body>
+</html>
