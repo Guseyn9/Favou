@@ -19,8 +19,12 @@
   [Демо](https://my-food-project-ten.vercel.app/) | [Код](https://github.com/Guseyn9/my-food-project)
 - **MiniAppTg** — мини-приложение для телеграмм платформы  
   [Демо](https://mini-app-tg-nu.vercel.app/) | [Код](https://github.com/Guseyn9/Mini-App-Tg/)
-- **Rocont** — приятный сайт с JavaScript анимациями  
-  [Демо](https://rocont-project.vercel.app/) | [Код](https://github.com/Guseyn9/Rocont-project)
+- **W-wawe** — музыкальный сайт с приятным дизайном и анимациями  
+  [Демо](https://w-wawe-cyan.vercel.app/) | [Код](https://github.com/Guseyn9/W-wawe)
+- **Lagoona** — красивый сайт для сети отелей  
+  [Демо](https://lagoona-one.vercel.app/) | [Код](https://github.com/Guseyn9/Lagoona/tree/main)
+- **Clinic-main** — сайт для клиники медмел  
+  [Демо](https://clinic-main-omega.vercel.app/) | [Код](https://github.com/Guseyn9/Clinic-main)
 
 ---
 
